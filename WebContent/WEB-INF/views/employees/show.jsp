@@ -42,6 +42,7 @@
                 </table>
 
                 <p><a href="<c:url value='/employees/edit?id=${employee.id}' />">この従業員情報を編集する</a></p>
+                <p><a href="<c:url value='/Reportsiine?id=${report.id}' />">この日報をいいね</a></p>
             </c:when>
             <c:otherwise>
                 <h2>お探しのデータは見つかりませんでした。</h2>
